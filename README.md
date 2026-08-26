@@ -68,6 +68,9 @@ A simple yet powerful desktop application for automated, time-interval based scr
 -   **Concurrency:** To prevent the GUI from freezing while waiting for the next screenshot interval, the capture loop runs in a separate `threading.Thread`. This ensures the application remains responsive at all times.
 -   **Image Handling:** The `Pillow` library is used to process the captured screenshot and generate a resized thumbnail for the preview panel.
 
+## Tutorial
+https://softwarejournal.blog/blog/deep-dive-autoscreencapture-python-tkinter/
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/azario0/AutoScreenCapture/issues).
